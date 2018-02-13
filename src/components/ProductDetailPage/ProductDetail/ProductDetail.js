@@ -20,6 +20,7 @@ function productDetail(props) {
       </h1>
       <div className={styles.metricsRow}>
         <Stars rating={props.product.rating} />
+        <p className={styles.reviewCount}>20 Reviews</p>
       </div>
       <AddToCartContainer variants={props.product.variants} />
     </div>

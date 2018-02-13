@@ -4,7 +4,7 @@
 .ratingStars {
   color: $chefdOrange;
   font-size: 1.4rem;
-  height: 25px;
+  height: 1.8rem;
   width: 85.5px;
   position: relative;
   white-space: nowrap;
@@ -16,13 +16,13 @@
   &Filled {
     position: absolute;
     z-index: 1;
-    display: block;
+    // display: block;
     top: 0;
     left: 0;
     overflow: hidden;
   }
   &Empty {
-    display: block;
+    // display: block;
     z-index: 0;
   }
 }
