@@ -1,0 +1,36 @@
+// @import 'scss/main.scss';
+// newFlag color is a new one, not in original list of colors
+
+.container {
+  width: 50%;
+  padding-left: 10%;
+  color: #3d4246;
+  font-size: 1.6rem;
+  font-weight: 100;
+}
+
+.newFlag {
+  color: #788188;
+  font-family: 'Verlag-Book';
+}
+
+.heading {
+  text-transform: none;
+
+  &__title {
+    font-family: 'Sentinel-Light';
+    font-size: 3.6rem;
+    line-height: 3rem;
+  }
+
+  &__subtitle {
+    font-family: 'Verlag-XLight';
+    display: block;
+    font-size: 2.2rem;
+    line-height: 2.4rem;
+  }
+}
+
+.metricsRow {
+  margin: 1rem 0;
+}

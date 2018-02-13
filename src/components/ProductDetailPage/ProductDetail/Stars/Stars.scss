@@ -1,0 +1,28 @@
+// @import 'scss/main.scss';
+@import '../../../../scss/main.scss';
+
+.ratingStars {
+  color: $chefdOrange;
+  font-size: 1.4rem;
+  height: 25px;
+  width: 85.5px;
+  position: relative;
+  white-space: nowrap;
+
+  svg {
+    margin-right: 0.15rem;
+  }
+
+  &Filled {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  &Empty {
+    display: block;
+    z-index: 0;
+  }
+}
